@@ -1,0 +1,107 @@
+.social_network_connect.hidden {
+	display: none;
+}
+.social_network_connect .hidden {
+	display: none;
+}
+
+.lws-wr-snc-wrapper {
+	padding: 10px;
+}
+.lws-wr-snc-wrapper .connect-header {
+	font-size: 18px;
+	text-align: justify;
+	padding-bottom: 10px;
+}
+.lws-wr-snc-wrapper .snc-container {
+	padding-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+/*Facebook Button */
+.lws-wr-snc-wrapper .fb-button {
+	padding: 0;
+	border: none;
+	transition: all 0.3s ease;
+	display: flex;
+	width: 100%;
+	min-height: 40px;
+	border-radius: 0px;
+	background-color: #eeeeee;
+	transition: all 0.3s ease;
+	color: #4267b2;
+}
+.snc-container .fb-button .fb-button-icon {
+	width: 40px;
+	height: 40px;
+	font-size: 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+	background: linear-gradient(180deg, #18acfd 0%, #0064e0 100%);
+}
+.snc-container .fb-button .fb-button-text {
+	height: 40px;
+	flex: 1 1 auto;
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.snc-container .fb-button:hover {
+	background-color: #4267b2;
+	color: #ffffff;
+}
+.lws-wr-snc-wrapper .fb-message.connected {
+	text-align: justify;
+	font-size: 16px;
+	color: #be7f0a;
+}
+.lws-wr-snc-wrapper .fb-message.verified {
+	text-align: justify;
+	font-size: 16px;
+	color: #008d4b;
+}
+.lws-wr-snc-wrapper .fb-message.blocked {
+	text-align: justify;
+	font-size: 16px;
+	color: #cc1d25;
+}
+
+/* Instagram buttons */
+.lws-wr-snc-wrapper .ig-button {
+	padding: 0;
+	border: none;
+	transition: all 0.3s ease;
+	display: flex;
+	width: 100%;
+	height: 40px;
+	border-radius: 0px;
+	background-color: #eeeeee;
+	transition: all 0.3s ease;
+	color: #333333;
+}
+.snc-container .ig-button .ig-button-icon {
+	width: 40px;
+	height: 40px;
+	font-size: 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+.snc-container .ig-button .ig-button-text {
+	height: 40px;
+	flex: 1 1 auto;
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.snc-container .ig-button:hover {
+	background-color: #333333;
+	color: #ffffff;
+}

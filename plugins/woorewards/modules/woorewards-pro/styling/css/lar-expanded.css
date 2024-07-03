@@ -1,0 +1,5 @@
+.lar-accordeon-item .flrow.lar-expanded-line{display: none;}
+.lar-accordeon-item .lar-accordeon-not-expanded-cont{padding-top:15px;text-transform:uppercase;}
+.lar-accordeon-item .lar-accordeon-not-expanded-cont .lar-line-header{font-size:18px;font-weight:300;}
+.lar-accordeon-item .lar-accordeon-not-expanded-cont .lar-lsov-sbarline{display:none;}
+.lar-accordeon-item .lar-accordeon-not-expanded-cont .lar-lsov-sline .flrow{display: none;}

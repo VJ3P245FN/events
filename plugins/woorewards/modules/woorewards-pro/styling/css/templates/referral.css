@@ -1,0 +1,37 @@
+.lwss_selectable.lws-woorewards-referral-field-copy.lws_referral_value_copy{
+	display:flex;flex-direction:row;align-items:center;
+	border:1px solid #959595;border-radius:4px;
+}
+.lwss_selectable.lws-woorewards-referral-field-copy-text{
+	padding-right: 10px;padding-left: 10px;
+	border-radius:4px 0 0 4px;height:25px;line-height:25px;
+	flex:1 1 auto;font-size:12px;overflow: hidden;
+}
+.lwss_selectable.lws-woorewards-referral-field-copy-icon{
+	padding:0 10px;cursor:pointer;
+	color:#ffffff;background-color:#959595;
+	align-items: baseline;text-align:center;align-content:center;
+	flex:0 0 20px;line-height: 25px;
+}
+.lwss_selectable.lwss_modify.lws-woorewards-referral-description{
+	text-align: justify;
+	color: #666666;
+	padding-bottom: 5px;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.lwss_selectable.lws-woorewards-spqrcode-wrapper{
+	border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;
+	border-color:#959595;border-radius:4px;border-style: solid;
+	display: flex;flex-direction: column;margin-bottom:5px;
+}
+.lwss_selectable.lws-woorewards-spqrcode{
+	display: flex;justify-content: center;align-items: center;padding:5px;
+}
+.lwss_selectable.lws-woorewards-spqrcode-copy-icon{
+	background-color:#959595;padding:2px 10px 0 10px;cursor:pointer;
+	border-radius:0 0 3px 3px;
+	color:#ffffff;font-size:15px;
+	text-align:center;align-content:center;
+	flex:0 0 20px;
+}

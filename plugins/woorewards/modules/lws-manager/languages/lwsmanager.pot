@@ -1,0 +1,588 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: LWS Manager\n"
+"POT-Creation-Date: 2021-03-09 19:37+0100\n"
+"PO-Revision-Date: 2022-02-24 16:21+0100\n"
+"Last-Translator: LongWatchStudio <plugins@longwatchstudio.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Geany / PoHelper 1.36\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: lws-manager.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: include/core/manager.php:204
+msgid "Seems like your trial period has been already consumed."
+msgstr ""
+
+#: include/core/manager.php:218
+msgid "There was a problem establishing a connection to the trial server."
+msgstr ""
+
+#: include/core/manager.php:233
+msgid "Update to the premium Trial is now available."
+msgstr ""
+
+#: include/core/manager.php:243
+#, php-format
+msgid "The Trial for <i>%2$s</i> will expire the <b>%1$s</b>."
+msgstr ""
+
+#: include/core/manager.php:247
+#, php-format
+msgid "The Trial for <i>%2$s</i> already expired the <b>%1$s</b>."
+msgstr ""
+
+#: include/core/manager.php:260
+msgid "There was a problem activating the Trial. You may retry later."
+msgstr ""
+
+#: include/core/manager.php:268 include/core/manager.php:497
+#: include/core/manager.php:633
+msgid "There was a problem establishing a connection to the license service."
+msgstr ""
+
+#: include/core/manager.php:452 include/core/manager.php:580
+msgid "There was a problem establishing a connection to the license server."
+msgstr ""
+
+#: include/core/manager.php:467
+#, php-format
+msgid "The previews license key (%s) has been deactivated."
+msgstr ""
+
+#: include/core/manager.php:472 include/core/manager.php:668
+msgid "Licence Key Successfully Unassigned."
+msgstr ""
+
+#: include/core/manager.php:484
+#, php-format
+msgid "There was a problem deactivating the previews license key (%s)."
+msgstr ""
+
+#: include/core/manager.php:486
+msgid "There was a problem deactivating the license."
+msgstr ""
+
+#: include/core/manager.php:534
+#, php-format
+msgid "The license <b>%3$s</b> for <i>%2$s</i> expired the <b>%1$s</b>."
+msgstr ""
+
+#: include/core/manager.php:537 include/core/manager.php:605
+#, php-format
+msgid "The license <b>%3$s</b> for <i>%2$s</i> will expire the <b>%1$s</b>"
+" unless you opted for automatic renewal."
+msgstr ""
+
+#: include/core/manager.php:595
+msgid "Update to the premium version is now available."
+msgstr ""
+
+#: include/core/manager.php:607
+#, php-format
+msgid ""
+"The license <b>%3$s</b> for <i>%2$s</i> already expired the <b>%1$s</b>."
+msgstr ""
+
+#: include/core/manager.php:625
+#, php-format
+msgid "There was a problem activating the license (%s)."
+msgstr ""
+
+#: include/core/manager.php:664
+msgid "Invalid licence key."
+msgstr ""
+
+#: include/core/manager.php:665
+msgid "Invalid licence key or licence not active for domain."
+msgstr ""
+
+#: include/core/manager.php:666
+msgid "You had reached the maximum number of domains for this key."
+msgstr ""
+
+#: include/core/manager.php:667
+msgid "Licence Key does not match this product."
+msgstr ""
+
+#: include/core/manager.php:669
+msgid "Licence Key Is Unassigned."
+msgstr ""
+
+#: include/core/manager.php:670
+msgid "Licence key Is Active and Valid for Domain."
+msgstr ""
+
+#: include/core/manager.php:779
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr ""
+
+#: include/core/manager.php:816
+msgid "Unexpected response from API."
+msgstr ""
+
+#: include/core/manager.php:859
+#, php-format
+msgid ""
+"Your support access for the plugin <b>%1$s</b> is no longer available. "
+"Please visit %2$s to expend your support period."
+msgstr ""
+
+#: include/core/manager.php:868
+#, php-format
+msgid ""
+"Your subscription to plugin <b>%1$s</b> Premium Services expired. Please "
+"visit %2$s to expend your license period."
+msgstr ""
+
+#: include/core/manager.php:952
+#, php-format
+msgid "%s Premium"
+msgstr ""
+
+#: include/core/manager.php:957
+#, php-format
+msgid "Your Trial period expires the %1$d. Consider purchasing %2$s."
+msgstr ""
+
+#: include/ui/managerpage.php:87
+msgid "Please set a the extension license key to activate it."
+msgstr ""
+
+#: include/ui/managerpage.php:195
+msgid "License Management"
+msgstr ""
+
+#: include/ui/managerpage.php:209 include/ui/managerpage.php:475
+msgid "Deactivate my license"
+msgstr ""
+
+#: include/ui/managerpage.php:209
+msgid "Activate license"
+msgstr ""
+
+#: include/ui/managerpage.php:227
+msgid "The following extensions have been found on your system."
+msgstr ""
+
+#: include/ui/managerpage.php:228
+msgid "Here you manage the license keys for each one of them."
+msgstr ""
+
+#: include/ui/managerpage.php:231
+#, php-format
+msgid "The Premium version of %s must be active for extensions to work."
+msgstr ""
+
+#: include/ui/managerpage.php:250
+msgid "Installed Extensions"
+msgstr ""
+
+#: include/ui/managerpage.php:267
+msgid "Make your site even greater."
+msgstr ""
+
+#: include/ui/managerpage.php:268
+msgid "All these extensions are available here."
+msgstr ""
+
+#: include/ui/managerpage.php:271
+msgid "Addons need an active Premium version."
+msgstr ""
+
+#: include/ui/managerpage.php:289
+msgid "Available Extensions"
+msgstr ""
+
+#: include/ui/managerpage.php:306
+msgid "WordPress Updates"
+msgstr ""
+
+#: include/ui/managerpage.php:309
+msgid "<b>Your license is activated.</b>"
+msgstr ""
+
+#: include/ui/managerpage.php:310
+#, php-format
+msgid "Look in %1$s page for a %2$s update."
+msgstr ""
+
+#: include/ui/managerpage.php:311
+msgid ""
+"You should have to click \"<i>Check Again</i>\" button to force WordPress "
+"refresh its list."
+msgstr ""
+
+#: include/ui/managerpage.php:312
+msgid ""
+"If the Plugin Update still does not appears, please wait few minutes and try "
+"again."
+msgstr ""
+
+#: include/ui/managerpage.php:315
+msgid "<b>Your Trial is active.</b>"
+msgstr ""
+
+#: include/ui/managerpage.php:317
+msgid "Check for Updates"
+msgstr ""
+
+#: include/ui/managerpage.php:322
+msgid "An update is waiting for you"
+msgstr ""
+
+#: include/ui/managerpage.php:351
+msgid "Your Subscription is currently inactive."
+msgstr ""
+
+#: include/ui/managerpage.php:353
+msgid "You can't download new versions or send requests to the support."
+msgstr ""
+
+#: include/ui/managerpage.php:355
+msgid ""
+"You can't use Premium features of this plugin, download new versions or send "
+"requests to the support."
+msgstr ""
+
+#: include/ui/managerpage.php:356
+msgid ""
+"You can resume your subscription at any time to get access to updates and "
+"support."
+msgstr ""
+
+#: include/ui/managerpage.php:357
+msgid "Resume my subscription"
+msgstr ""
+
+#: include/ui/managerpage.php:361
+msgid "Your Subscription is currently active."
+msgstr ""
+
+#: include/ui/managerpage.php:366
+msgid "Updates and Support are available until :"
+msgstr ""
+
+#: include/ui/managerpage.php:368
+msgid ""
+"To avoid a service interruption, you should renew your subscription before :"
+msgstr ""
+
+#: include/ui/managerpage.php:370
+msgid "See my subscription"
+msgstr ""
+
+#: include/ui/managerpage.php:375
+msgid "Your Subscription includes Updates and Support."
+msgstr ""
+
+#: include/ui/managerpage.php:377
+msgid ""
+"Your Subscription includes the usage of this plugin, updates and support."
+msgstr ""
+
+#: include/ui/managerpage.php:378
+msgid "Cancel my subscription"
+msgstr ""
+
+#: include/ui/managerpage.php:383
+msgid "Maintenance and Updates"
+msgstr ""
+
+#: include/ui/managerpage.php:385
+msgid "Usage Permission"
+msgstr ""
+
+#: include/ui/managerpage.php:412
+msgid ""
+"If you have a Premium License Key, please input it in the field below and "
+"click on the Activation button."
+msgstr ""
+
+#: include/ui/managerpage.php:413
+msgid ""
+"If the activation is successful, the Premium version will be activated and "
+"installed automatically."
+msgstr ""
+
+#: include/ui/managerpage.php:418
+msgid "Activate my license"
+msgstr ""
+
+#: include/ui/managerpage.php:424 include/ui/managerpage.php:484
+#, php-format
+msgid "%s Premium License"
+msgstr ""
+
+#: include/ui/managerpage.php:432
+msgid "License Key"
+msgstr ""
+
+#: include/ui/managerpage.php:436
+msgid ""
+"Your license key has been provided to you in the Order Confirmation eMail."
+msgstr ""
+
+#: include/ui/managerpage.php:467
+#, php-format
+msgid "You're actually using a licensed version of %s Premium."
+msgstr ""
+
+#: include/ui/managerpage.php:468
+msgid "Your license key is :"
+msgstr ""
+
+#: include/ui/managerpage.php:478
+#, php-format
+msgid ""
+"If you deactivate your license, you will be reverted to the free version of "
+"%s. Your license count will be updated on our server and you'll be able to "
+"activate your license on another website."
+msgstr ""
+
+#: include/ui/managerpage.php:505 include/ui/managerpage.php:546
+msgid "This version contains only a few features of the premium version."
+msgstr ""
+
+#: include/ui/managerpage.php:507
+#, php-format
+msgid "You're actually using the free version of %s."
+msgstr ""
+
+#: include/ui/managerpage.php:509
+#, php-format
+msgid ""
+"If you're happy with %s Standard features, <b>please consider reviewing it</"
+"b> on wordpress.org"
+msgstr ""
+
+#: include/ui/managerpage.php:513
+msgid ""
+"If you want to gain access to more features, you can try the premium version "
+"for free for 30 days."
+msgstr ""
+
+#: include/ui/managerpage.php:518
+msgid "Review on wordpress.org"
+msgstr ""
+
+#: include/ui/managerpage.php:524
+msgid "Free Version"
+msgstr ""
+
+#: include/ui/managerpage.php:550
+#, php-format
+msgid "Try %s Premium for free for 30 days."
+msgstr ""
+
+#: include/ui/managerpage.php:551
+#, php-format
+msgid "Instant access to all %s Premium features."
+msgstr ""
+
+#: include/ui/managerpage.php:552
+msgid "No payment required."
+msgstr ""
+
+#: include/ui/managerpage.php:553
+msgid "No registration required."
+msgstr ""
+
+#: include/ui/managerpage.php:559
+msgid "Start the free trial"
+msgstr ""
+
+#: include/ui/managerpage.php:565
+#, php-format
+msgid "Free %s Premium Trial"
+msgstr ""
+
+#: include/ui/managerpage.php:590
+#, php-format
+msgid ""
+"You're actually trying %s Premium for free for a limited period of time. You "
+"will be reminded that your trial period is about to end 5 days and 3 days "
+"before it ends."
+msgstr ""
+
+#: include/ui/managerpage.php:592
+#, php-format
+msgid "You're actually trying %s Free with limited features."
+msgstr ""
+
+#: include/ui/managerpage.php:593
+#, php-format
+msgid ""
+"If you like %s, you can purchase a license on our website by clicking on the "
+"button below."
+msgstr ""
+
+#: include/ui/managerpage.php:599
+msgid "Your trial will expire in :"
+msgstr ""
+
+#: include/ui/managerpage.php:600
+msgid "Days"
+msgstr ""
+
+#: include/ui/managerpage.php:607 include/ui/managerpage.php:616
+#, php-format
+msgid "Purchase %s Premium"
+msgstr ""
+
+#: include/ui/managerpage.php:610
+msgid ""
+"Premium Version is a paid service. This service features the plugin, the "
+"support and regular updates. You can cancel your subscription at any time by "
+"changing your preferences on your account on plugins.longwatchstudio.com. "
+"Cancelling your subscription will remove the access to premium features, "
+"support and updates."
+msgstr ""
+
+#: include/ui/managerpage.php:678
+#, php-format
+msgid ""
+"The Trial License found for the plugin <b>%s</b> cannot be migrated to the "
+"new system."
+msgstr ""
+
+#: include/ui/managerpage.php:679
+msgid ""
+"If you are sure your license should still be valid, try to restart the trial "
+"manually or contact the support of the plugin."
+msgstr ""
+
+#: include/ui/managerpage.php:697
+#, php-format
+msgid ""
+"The license found for the plugin <b>%s</b> cannot be migrated to the new "
+"system."
+msgstr ""
+
+#: include/ui/managerpage.php:698
+msgid ""
+"If you are sure your license should still be valid, try to reactivate it "
+"manually or contact the support of the plugin."
+msgstr ""
+
+#: include/ui/managerpage.php:725 include/ui/managerpage.php:745
+#, php-format
+msgid "Go to <b>%s</b> Settings"
+msgstr ""
+
+#: include/ui/page.php:90
+msgid "License"
+msgstr ""
+
+#: include/ui/supportpage.php:78
+#, php-format
+msgid ""
+"Sorry, the mail failed to be sent. You can try again or use the &lt;%s&gt; "
+"contact address."
+msgstr ""
+
+#: include/ui/supportpage.php:84
+msgid ""
+"Your request has been sent to our support team. We will respond as soon as "
+"possible."
+msgstr ""
+
+#: include/ui/supportpage.php:223
+msgid "Please, fill your Name before sending the mail."
+msgstr ""
+
+#: include/ui/supportpage.php:228
+msgid "Please, set a response EMail."
+msgstr ""
+
+#: include/ui/supportpage.php:233
+msgid "Please, select a Subject before sending the mail."
+msgstr ""
+
+#: include/ui/supportpage.php:238
+msgid "Please, Fill your request before sending the mail."
+msgstr ""
+
+#: include/ui/supportpage.php:298
+msgid "Support"
+msgstr ""
+
+#: include/ui/supportpage.php:355
+msgid "Support Instructions"
+msgstr ""
+
+#: include/ui/supportpage.php:358
+msgid ""
+"Please read the instructions carefully before sending a support request."
+msgstr ""
+
+#: include/ui/supportpage.php:420
+#, php-format
+msgid "Support Request for <b>%s</b>"
+msgstr ""
+
+#: include/ui/supportpage.php:423
+msgid "Fill in the form below to send a support request."
+msgstr ""
+
+#: include/ui/supportpage.php:438
+msgid "Your Name"
+msgstr ""
+
+#: include/ui/supportpage.php:449
+msgid "Your Email"
+msgstr ""
+
+#: include/ui/supportpage.php:455
+msgid ""
+"The email we will response to. Please make sure this is a valid email that "
+"you consult frequently."
+msgstr ""
+
+#: include/ui/supportpage.php:461
+msgid "Subject"
+msgstr ""
+
+#: include/ui/supportpage.php:473
+msgid "Your Request"
+msgstr ""
+
+#: include/ui/supportpage.php:476
+msgid ""
+"Describe your problem here, what happen, what is expected, what did you do."
+msgstr ""
+
+#: include/ui/supportpage.php:488
+msgid "Send the support request"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "LWS Manager"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugins.longwatchstudio.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Manage LWS plugins install and support."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Long Watch Studio"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://longwatchstudio.com"
+msgstr ""

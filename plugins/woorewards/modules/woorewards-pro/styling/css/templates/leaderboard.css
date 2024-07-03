@@ -1,0 +1,22 @@
+.wr-leaderboard-grid{
+	display:grid;
+	border:1px solid #ddd;
+	gap:1px;
+	background-color:#ddd;
+}
+.wr-leaderboard-header-line{
+	display: contents;
+}
+.wr-leaderboard-header-cell{
+	padding-top:5px;padding-right:10px;padding-bottom:5px;padding-left:10px;
+	font-size:15px;
+	font-weight: bold;
+}
+.wr-leaderboard-line{
+	display: contents;
+}
+.wr-leaderboard-cell{
+	padding-top:5px;padding-right:10px;padding-bottom:5px;padding-left:10px;
+	font-size:15px;
+	background-color: #ffffff;
+}

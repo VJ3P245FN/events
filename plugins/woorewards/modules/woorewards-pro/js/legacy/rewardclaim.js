@@ -1,0 +1,4 @@
+jQuery(function($){var popup=$("#lws_wooreward_rewardclaimed");if(popup){popup.detach().appendTo('body');popup.css({'position':'absolute','z-index':'1999','opacity':'0'});var wwidth=$(window).width();var wheight=$(window).height();var pwidth=popup.width();var pheight=popup.height();var otherRewards=popup.find(".lws-woorewards-reward-claim-others");if(pheight>wheight){otherRewards.height(wheight-(pheight-otherRewards.height())-80);var pheight=popup.height()}
+popup.css('left',((wwidth-pwidth)/2));popup.css('top',Math.max(32,((wheight-pheight)/2)));popup.animate({opacity:1},1000);popup.on('click','.lws-wr-reward-claim-close',function(){popup.fadeOut()})}
+$(document).on('click','.lws-woorewards-reward-claim-other-button',function(event){var link=$(event.target);if(!link.prop('disabled')){$('.lws-reward-redeem, .lws-woorewards-reward-claim-other-button').prop('disabled',!0);window.location=link.data('href')}
+return!1})})

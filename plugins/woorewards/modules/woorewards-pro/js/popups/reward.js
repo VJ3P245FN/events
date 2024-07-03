@@ -1,0 +1,2 @@
+jQuery(function($){$(document).on('click','.wr_unlock_reward',function(event){var link=$(event.target);if(!link.prop('disabled')){$('.wr_unlock_reward').prop('disabled',!0);window.location=link.data('href')}
+return!1})})

@@ -1,0 +1,67 @@
+/* Leveling System bar display */
+
+.lwss_selectable.pb-container{
+	width:100%;
+	padding-top:0px;padding-right:35px;padding-bottom:20px;padding-left:20px;
+	box-sizing:border-box;
+}
+.lwss_selectable.pb-title{
+	text-align:center;
+	width:100%;
+	font-size:20px;
+	padding-top:10px;padding-right:0;padding-bottom:10px;padding-left:0;
+	color: #000;
+}
+.lwss_selectable.pb-grid{
+	position:relative;
+	display:grid;
+	width:100%;
+}
+.lwss_selectable.pb-backbar{
+	position:absolute;
+	width:100%;
+	height:16px;
+	border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;
+	border-color:#eee;
+	border-style: solid;
+	border-radius:8px;
+	box-sizing: border-box;
+	margin-top:7px;margin-right:0;margin-bottom:7px;margin-left:0;
+}
+.lwss_selectable.pb-frontbar{
+	position:absolute;
+	margin:9px 2px;
+	height:12px;
+	background-color:#03534f;
+	border-radius:6px;
+	text-align: right;
+	padding-right:5px;
+	color : #fff;
+	line-height: 12px;
+	font-weight: bold;
+	font-size:10px;
+}
+.lwss_selectable.pb-pin{
+	margin-right:-15px;
+	justify-self: end;position:relative;width:30px;height:30px;
+	border:3px solid;border-color: #888;
+	background-color: #aaa;text-align: center;
+	font-size:18px;font-weight: bold; color: #333;
+	border-radius:20px;display:flex;justify-content:center;align-items:center;
+	box-sizing: border-box;
+}
+.lwss_selectable.pb-pin.unlocked{
+	border-color: #087e78;
+	background-color: #03534f;
+	color : #fff;
+}
+.lwss_selectable.pb-points{
+	margin-right:-20px;width:40px;text-align: center;
+	justify-self: end;position:relative;
+	font-size:14px; color: #333;
+	box-sizing: border-box;
+
+}
+.lwss_selectable.pb-points.unlocked{
+	color : #03534f;
+}

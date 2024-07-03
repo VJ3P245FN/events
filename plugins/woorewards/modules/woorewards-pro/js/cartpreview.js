@@ -1,0 +1,1 @@
+jQuery(function($){$(document.body).on('updated_cart_totals wc_fragments_loaded',function(){$.ajax({type:'get',url:lws_ajax.url,data:{action:'lws_woorewards_get_cart_preview'},dataType:'html',success:function(response){$(".lws-wre-cartpointspreview-main").replaceWith(response)},error:function(){console.log('error updating the cart preview')}})})})

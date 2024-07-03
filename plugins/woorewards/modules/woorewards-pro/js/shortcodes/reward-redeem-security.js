@@ -1,0 +1,2 @@
+jQuery(function($){$(document).on('click','.lws-reward-redeem',function(event){var link=$(event.target);if(!link.prop('disabled')){$('.lws-reward-redeem').prop('disabled',!0);window.location=link.data('href')}
+return!1})})

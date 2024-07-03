@@ -1,0 +1,7 @@
+jQuery(function($){$(document).on('change','#remote_sharing_key',function(){if($(this).closest('.lws_editlist_form_hidden').length)
+return;var value=$(this).val().trim();if(value.length){data={'url':'','auth':'','pass':''};var values=value.split('|');if(0<values.length)
+data.url=values[0];if(1<values.length){values=values[1].split(':');if(0<values.length)
+data.auth=values[0];if(1<values.length)
+data.pass=values[1]}
+$('#remote_url').val(data.url);$('#remote_auth').val(data.auth);$('#remote_pass').val(data.pass);$('#remote_url').trigger('update')}});$(document).on('change','#remote_url,#remote_auth,#remote_pass',function(){if(!$(this).closest('.lws_editlist_form_hidden').length)
+$('#remote_sharing_key').val('');});$(document).on('change update keyup','#remote_url',function(){let local=$('#sim_name_my_url').val();let remote=$('#remote_url').val().replace(/^https?:\/\//i,'');if(remote.trim().length&&(local.includes(remote)||remote.includes(local))){$('#sim_name_warn').css('display','block');$('#sim_name_confirm').prop('checked',!1)}else{$('#sim_name_warn').css('display','none')}});$(document).on('paste','#remote_sharing_key',function(e){setTimeout(function(){$('#remote_sharing_key').trigger('change')},1)})})

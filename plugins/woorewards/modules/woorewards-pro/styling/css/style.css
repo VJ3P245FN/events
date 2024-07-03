@@ -1,0 +1,140 @@
+#lws-wr-new-pool-button {
+	box-sizing: border-box;
+	background-color: #3f89c5;
+	color: #fff;
+	padding: 0 10px;
+	margin: 0px -10px;
+}
+#lws-wr-new-pool-button:hover {
+	background-color: #3fa9f5;
+}
+.lws-top-menu li.lws-mtab-li-2 {
+	margin: 0;
+}
+.lws-adminpanel p.mid-submit {
+	border: none;
+	border-radius: 0;
+	background: #eee;
+	padding: 1em !important;
+	z-index: 99999;
+}
+.lws-adminpanel p.mid-submit input#submit {
+	width: 100%;
+}
+.lws_tooltips_button.lws-wr-productreview-help:before {
+	display: block;
+	text-align: right;
+	top: -1.5em;
+	height: 0;
+}
+
+.pool-info {
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #000;
+	overflow: hidden;
+	flex-wrap: nowrap;
+	white-space: nowrap;
+	box-sizing: border-box;
+	font-family: "Poppins";
+		border-radius: 4px;
+		padding: 0 10px;
+}
+.pool-info.status {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.pool-info.status.enabled {
+	background-color: #0a714a;
+	color: #fff;
+}
+.pool-info.status.disabled {
+	background-color: #aa1d25;
+	color: #fff;
+}
+.pool-info.status.futur {
+	background-color: #677c73;
+	color: #fff;
+}
+.pool-info.status.running {
+	background-color: #3fa9f5;
+	color: #fff;
+}
+.pool-info.status.buyable {
+	background-color: #00505a;
+	color: #fff;
+}
+.pool-info.status.outdated {
+	background-color: #999;
+	color: #fff;
+}
+.pool-info.type.standard {
+	text-transform: uppercase;
+	background-color: #526981;
+	color: #fff;
+}
+.pool-info.type.levelling {
+	text-transform: uppercase;
+	background-color: #577;
+	color: #fff;
+}
+.pool-info.event {
+	background-color: #ccc;
+	color: #000;
+}
+.pool-info.name {
+	background-color: #ccc;
+	color: #000;
+}
+.pool-info.shared {
+	background-color: var(--shared-color, #ccc);
+	color: #000;
+}
+.pool-info.shortcode-wrapper .content {
+	font-weight: normal;
+}
+
+.lws-editlist-poolinfo {
+	display: flex;
+	padding: 0 0 5px 0;
+}
+.lws-editlist-poolinfo .poolinfo-label {
+	font-weight: bold;
+	flex: 0 1 auto;
+	padding-right: 10px;
+}
+.lws-editlist-poolinfo .poolinfo-name {
+	flex: 1 1 auto;
+}
+.lws-editlist-shared {
+	text-align: center;
+	padding: 1px 0;
+}
+.lws-wre-pool-edit-link.row {
+	font-weight: 700;
+}
+.lws-woorewards-list-pool-date {
+	white-space: nowrap;
+	font-size: 12px;
+}
+.lws-editlist-line-inputs label {
+	position: relative;
+}
+.lws_wre_points_sharing.slave.fuzzy {
+	display: none;
+}
+.lws_wre_pool_edit_lifestyle {
+	font-size: 15px;
+}
+
+.lws-field-duration input.period-start {
+	border: none;
+	border-radius: 0;
+	background-color: #eee;
+	color: #000;
+	height: 30px;
+	box-sizing: border-box;
+}

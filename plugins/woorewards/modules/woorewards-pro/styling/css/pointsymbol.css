@@ -1,0 +1,10 @@
+img.lws-woorewards-point-symbol{
+	display: inline !important;
+	margin-bottom: -0.1em;
+	height: 1em;
+	width: auto;
+}
+/** WC override */
+ul.products li.product img.lws-woorewards-point-symbol{
+	margin-bottom: -0.1em;
+}
