@@ -419,6 +419,6 @@ class Ajax
 	private function googleApiKey()
 	{
 		$val = get_option('lws-private-google-api-key', '');
-		return (!empty($val) ? $val : 'XXXXB857on4-XXXXXSXyXA4XXXXXHN_ZdXY_z8c');
+		return (!empty($val) ? $val : 'XXXXXXXX-XXXXXXXXXXXXXXXX_ZXXXX_XXX');
 	}
 }
